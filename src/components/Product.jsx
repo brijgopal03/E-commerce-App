@@ -1,5 +1,21 @@
-const Product = () => {
-  return <div>Product</div>;
+const Product = ({key ,post}) => {
+  return <div>
+  <div>
+    <p>{post.title}</p>
+  </div>
+    <div>
+      <p>{post.description}</p>
+    </div>
+    <div>
+      <img src={post.image} alt="" />
+    </div>
+    <div>
+      <p>{post.price}</p>
+  </div>
+  <button>{
+  true ? "Remove Item" : "Add to Cart" }</button>
+ 
+  </div>
 };
 
 export default Product;
