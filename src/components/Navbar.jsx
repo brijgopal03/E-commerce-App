@@ -9,7 +9,7 @@ const {cart} = useSelector((state) => state);
 
   return (
     <div>
-<nav className="flex flex-row justify-between items-center h-20 max-w-6xl mx-auto">
+<nav className=" flex flex-row justify-between items-center h-20 max-w-6xl mx-auto  ">
     <NavLink to = "/">
       <div className='ml-5'>
       <img src="../logo.png" alt="logo" className='h-20'/>
